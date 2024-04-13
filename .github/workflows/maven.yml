@@ -1,12 +1,12 @@
 name: BMI application workflow
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'src/**'
       - '.github/workflows/app-workflow.yaml'
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'src/**'
       - '.github/workflows/app-workflow.yaml'
